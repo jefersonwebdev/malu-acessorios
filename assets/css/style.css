@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  font-family: Arial, sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  /*background-image: url(background-patern-diamante.jpg);*/
+
+  /*background: repeat url(logo-malu-transparente.png);*/
+  /*background-repeat: repeat;*/
+}
+
+main {
+  width: 100%;
+}
+
+.borda {
+  border: solid 0px transparent;  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-self: center;
+  padding-top: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+  border-radius: 20px;
+  max-width: 360px;
+  background-color: #121212;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 auto;
+}
+
+
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  
+  /*margin-bottom: 20px;*/
+  /*border: 4px solid white;*/
+  /*box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);*/
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 8px;
+  width: 100%;
+  background-color: #121212;
+
+}
+
+footer p {
+  color: #fff;
+  font-size: 14px;
+}
+
+footer a {
+  color: violet;
+}
+
+.link {
+  display: block;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  margin: 10px auto;
+  padding: 15px 25px;
+  border-radius: 30px;
+  width: 100%; 
+  transition: 0.3s;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  align-self: center;
+  min-height: 64px;
+  align-content: center;
+  font-weight: 600;
+  transition: 0.3s ease;  
+}
+
+.link:hover {
+  background-color: #444;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;    
+}
+
+@media screen and (max-width:425px) {
+    
+  .avatar {
+    width: 96px;
+    height: 96px;
+  }
+
+  main {
+    
+    height: 100%;
+  }
+
+  .container {
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+    /*background-color: red;*/
+    
+  }
+
+  /*h1 {
+    font-size: 20px;
+  }*/
+
+  /*.link {
+    padding: 12px 20px;
+    font-size: 14px;
+  }*/
+}
